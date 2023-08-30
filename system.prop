@@ -1,0 +1,13 @@
+Build.BRAND=MTK
+dalvik.vm.appimageformat=lz4
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.dex2oat-max-image-block-size=524288
+ro.mediatek.wlan.p2p=1
+ro.mediatek.wlan.wsc=1
+ro.opengles.version=196610
+ro.support_one_handed_mode=true
+vendor.rild.libargs=-d /dev/ttyC0
+vendor.rild.libpath=mtk-ril.so
+wifi.interface=wlan0
+wifi.tethering.interface=ap0
