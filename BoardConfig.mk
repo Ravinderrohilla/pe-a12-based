@@ -143,7 +143,7 @@ SELINUX_IGNORE_NEVERALLOWS := true
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-include vendor/realme/RMX2117/BoardConfigVendor.mk
+#include vendor/realme/RMX2117/BoardConfigVendor.mk
 
 # Properties
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
@@ -186,5 +186,3 @@ BUILD_WITHOUT_VENDOR := true
 
 
 
-# TWRP Configuration
-include $(DEVICE_PATH)/configs/TWRP-Config.mk
